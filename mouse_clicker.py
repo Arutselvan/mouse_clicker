@@ -3,8 +3,8 @@ import time
 import argparse
 import sys
 
-DEFAULT_SCRIPT_DURATION = 60
-DEFAULT_CLICK_FREQUENCY = 30
+DEFAULT_SCRIPT_DURATION = 60 # Default duration for which the script runs (in minutes)
+DEFAULT_CLICK_FREQUENCY = 30 # Default mouse click frequency (in seconds)
 
 class MouseClicker:
 
