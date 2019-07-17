@@ -8,11 +8,15 @@ DEFAULT_CLICK_FREQUENCY = 30 # Default mouse click frequency (in seconds)
 
 class MouseClicker:
 
+    """
+    The mouse clicker class
+    """
+
     def __init__(self):
         pass
     
     def get_end_time(self, duration):
-        
+
         """
         Method to calculate the stopping time of the script
 
