@@ -21,15 +21,24 @@ class MouseClicker:
         Method to calculate the stopping time of the script
 
         Args:
-            duration ([int]): Duration for which the script should run
+            duration (int): Duration for which the script should run
 
         Returns:
-            [int]: The ending time at which the script should stop
+            int: The ending time at which the script should stop
         """
 
         return time.time() + 60*duration
 
     def click(self, frequency, duration):
+
+        """
+        Method to emulate mouse clicks
+
+        Args:
+            frequency (int): The frequency of mouse clicks
+            duration (int): Duration for which the script should run
+        """
+
         end_time = self.get_end_time(duration)
         current_time = time.time()
         while end_time > current_time:
