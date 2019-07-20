@@ -54,5 +54,7 @@ if __name__ == "__main__":
     parser.add_argument('--frequency', type=int, help="Frequency of mouse clicks (in seconds)", default=DEFAULT_CLICK_FREQUENCY)
     args = parser.parse_args()
     clicker = MouseClicker()
+    print("Running Mouse clicker...")
     clicker.click(args.frequency, args.duration)
+    print("Killed Mouse clicker")
 
