@@ -57,4 +57,4 @@ if __name__ == "__main__":
     print("Running Mouse clicker...")
     clicker.click(args.frequency, args.duration)
     print("Killed Mouse clicker")
-
+    sys.exit()
