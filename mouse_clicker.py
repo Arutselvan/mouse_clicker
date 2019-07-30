@@ -39,11 +39,11 @@ class MouseClicker:
             duration (int): Duration for which the script should run
         """
 
-        end_time = self.get_end_time(duration)
-        current_time = time.time()
-        while end_time > current_time:
-            autopy.mouse.click()
-            time.sleep(frequency)
+        end_time = self.get_end_time(duration) # The ending time at which the script should stop
+        current_time = time.time() # Get current time
+        while end_time > current_time: # Run the mouse click loop till the current time is less than ending time 
+            autopy.mouse.click() # Perform a mouse click
+            time.sleep(frequency) # Sleep for some seconds (time specified in frequency) before the next click
     
     def __del__(self):
         pass
@@ -55,6 +55,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     clicker = MouseClicker()
     print("Running Mouse clicker...")
-    clicker.click(args.frequency, args.duration)
+    clicker.click(args.frequency, args.duration) # Start the mouse click loop
     print("Killed Mouse clicker")
     sys.exit()
