@@ -7,3 +7,9 @@ A simple useless (or is it?) python script for emulating mouse clicks periodical
 - autopy
 
 ### Usage
+
+Clone the repository
+
+```
+git clone https://github.com/Arutselvan/mouse_clicker
+```
