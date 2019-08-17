@@ -21,3 +21,9 @@ Install the dependencies
 pip install -r requirements.txt
 ```
 
+Run the script
+
+```
+python mouse_clicker.py
+```
+
