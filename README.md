@@ -15,7 +15,7 @@ git clone https://github.com/Arutselvan/mouse_clicker
 cd mouse_clicker
 ```
 
-Install the dependencies
+Install dependencies
 
 ```
 pip install -r requirements.txt
