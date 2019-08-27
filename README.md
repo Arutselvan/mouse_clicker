@@ -33,5 +33,3 @@ Run the script with custom duration and frequency values
 python mouse_clicker.py --frequency=60 --duration=120
 ```
 
-Happy clicking :)
-
