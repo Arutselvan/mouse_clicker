@@ -33,3 +33,13 @@ Run the script with custom duration and frequency values
 python mouse_clicker.py --frequency=60 --duration=120
 ```
 
+```
+usage: mouse_clicker.py [-h] [--duration DURATION] [--frequency FREQUENCY]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --duration DURATION   Running duration of the script (in minutes)
+  --frequency FREQUENCY
+                        Frequency of mouse clicks (in seconds)
+```
+
